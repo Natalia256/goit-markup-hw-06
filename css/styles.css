@@ -556,7 +556,7 @@ margin-right: 92px;
         outline: 1px solid #000;
         margin-right: 8px;
         margin-left: 52px;
-        background-image: url(../images/modal/checkbox.svg);
+      /*  background-image: url(../images/modal/checkbox.svg);*/
       }
       
      /* .modal-form-policy-label::before:hover {
