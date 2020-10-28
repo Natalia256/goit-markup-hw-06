@@ -562,12 +562,13 @@ margin-right: 92px;
       .modal-form-policy-label::before:hover {
        /* outline: 1px solid blue;*/
            fill:#FFFFFF;
+          background-color: #2196F3;
       }
       
       .modal-form-policy:checked + .modal-form-policy-label::before {
         border: 2px solid #fff;
-        background-color: #2196F3;
         background-image: url(../images/modal/checkbox-a.svg);
+          background-color: #2196F3;
           fill:#FFFFFF;
           
       }
