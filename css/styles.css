@@ -570,6 +570,8 @@ margin-right: 92px;
         background-image: url(../images/modal/checkbox-a.svg);
           background-color: #2196F3;
           fill:#FFFFFF;
+          width: 16px;
+    height: 15px;
           
       }
       .visually-hidden {
