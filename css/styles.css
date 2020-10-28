@@ -566,7 +566,7 @@ margin-right: 92px;
       
       .modal-form-policy:checked + .modal-form-policy-label::before {
         border: 2px solid #fff;
-        background-color:#2196F3;
+        background-color: #2196F3;
         background-image: url(../images/modal/checkbox-a.svg);
           fill:#FFFFFF;
           
