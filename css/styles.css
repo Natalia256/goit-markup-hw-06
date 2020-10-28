@@ -70,6 +70,7 @@ body {
     height: 12px;
     width: 16px;
     fill: currentcolor;
+    margin-right: 10px;
 
  } 
 
@@ -175,7 +176,7 @@ margin-right: 92px;
     height: 5px;
     width: 100%;
     left: 0;
-    bottom: -30px;
+    bottom: -27px;
     position: absolute;
     background-color:  var(--link-color);
     border-radius: 4px;
@@ -441,7 +442,7 @@ margin-right: 92px;
     cursor: pointer;
     align-items: center;
        }
-    .backdrop-close{
+   .backdrop-close{
     position: absolute;
     width: 18px;
     height: 18px;
@@ -451,7 +452,6 @@ margin-right: 92px;
       .backdrop-close:hover, .backdrop-close:focus{
          fill: #2196F3;
       }
-     
       .modal-form {
         display: flex;
         flex-direction: column;
@@ -471,6 +471,13 @@ margin-right: 92px;
         margin-bottom: 10px;
         margin-left: 40px;
         margin-right: 40px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #757575;
      }
       
       .modal-form-field-wrapper {
@@ -525,22 +532,53 @@ margin-right: 92px;
       .check{
           display: flex;
       }
-       .modal-form-policy-label {
+      .modal-form-policy-label {
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 1,7;
+        line-height: 1.7;
         letter-spacing: 0.03em;
         text-align: left;
         margin-bottom: 30px;
+        margin-left: 8px;
+        color: #757575;
 
       } 
-      .modal-form-policy{
-        margin-left: 52px;
+      .modal-form-policy-label a{
+          color: #2196F3;
+      }
+      
+      .modal-form-policy-label::before {
+        display: inline-block;
+        content: "";
         width: 16px;
         height: 16px;
-        
+        outline: 1px solid #000;
+        margin-right: 8px;
+        margin-left: 52px;
+        background-image: url(../images/modal/checkbox.svg);
       }
+      
+      .modal-form-policy-label::before:hover {
+        outline: 1px solid blue;
+      }
+      
+      .modal-form-policy:checked + .modal-form-policy-label::before {
+        border: 4px solid #fff;
+        background-color: var(--accent-color);
+        background-image: url(../images/modal/checkbox-a.svg);
+      }
+      .visually-hidden {
+        position: absolute !important;
+        clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0 !important;
+        border: 0 !important;
+        height: 1px !important;
+        width: 1px !important;
+        overflow: hidden;
+      }      
+      
      .modal-form-btn {
         height: 50px;
         width: 200px;
@@ -560,7 +598,8 @@ margin-right: 92px;
       
       
       .modal-form-policy-label::before:hover {
-        outline: 1px solid blue;
+        outline: 1px solid #2196F3;
+        
       }
       
       .modal-form-policy:checked + .modal-form-policy-label::before {
@@ -675,16 +714,19 @@ color: #FFFFFF;
      font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1,25;
+    line-height: 1.25;
     letter-spacing: 0.03em;
     text-align: left;
     background: #2F303A;
+    color:#FFFFFF;
+
 
  }
   .footer-form-btn{
     width: 200px;
     height: 50px;
     border-radius: 4px;
+    border: none;
     background: #2196F3;
    font-size: 16px;
    font-style: normal;
@@ -793,7 +835,7 @@ padding-top: 20px;
     width: 100%;
     height: 100%;
     background: rgba(33, 150, 243, 0.9);
-    transition: all 500ms linear;
+    transition: all 200ms linear;
     transform: translateY(100%);
 
 }
