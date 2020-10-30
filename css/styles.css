@@ -533,6 +533,7 @@ margin-right: 92px;
           display: flex;
       }
       .modal-form-policy-label {
+          display: flex;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
