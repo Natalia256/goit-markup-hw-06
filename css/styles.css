@@ -548,7 +548,7 @@ margin-right: 92px;
           color: #2196F3;
       }
       
-      .modal-form-policy-label::before {
+      .modal-form-policy-label::befor {
         display: inline-block;
         content: "";
         width: 16px;
@@ -567,7 +567,7 @@ margin-right: 92px;
       
       .modal-form-policy:checked + .modal-form-policy-label::before {
         border: 2px solid #fff;
-        background-image: url(../images/modal/checkbox-a.svg);
+       /* background-image: url(../images/modal/checkbox-a.svg);*/
           background-color: #2196F3;
                    width: 16px;
     height: 16px;
