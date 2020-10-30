@@ -544,6 +544,12 @@ margin-right: 92px;
         color: #757575;
         display: inline-block;
           outline: 1px solid #000;
+          content: "";
+        width: 16px;
+        height: 16px;
+        
+        margin-right: 8px;
+        margin-left: 52px;
 
       } 
       .modal-form-policy-label a{
