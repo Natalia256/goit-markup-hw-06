@@ -543,8 +543,7 @@ margin-right: 92px;
         margin-left: 8px;
         color: #757575;
         display: inline-block;
-          outline: 1px solid #000;
-          content: "";
+         
         
       } 
       .modal-form-policy-label a{
@@ -566,7 +565,7 @@ margin-right: 92px;
           width: 16px;
         height: 16px;
           border-radius: 2px;
-          border: 0.2px solid #FFFFFF;
+          border: 0.2px solid #757575;
 }
       
            
