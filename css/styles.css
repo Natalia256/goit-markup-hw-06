@@ -533,9 +533,7 @@ margin-right: 92px;
           display: flex;
       }
       .modal-form-policy-label {
-          display: block;
-          display: flex;
-        font-size: 14px;
+          font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: 1.7;
@@ -547,9 +545,7 @@ margin-right: 92px;
         display: inline-block;
           outline: 1px solid #000;
           content: "";
-         width: 16px;
-        height: 16px;
-
+        
       } 
       .modal-form-policy-label a{
           color: #2196F3;
